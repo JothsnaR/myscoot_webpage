@@ -1,0 +1,11 @@
+.widget {
+    margin-top: 50px;
+    background-color: #ED4853;
+    display: block;
+    width: 100%;
+}
+@media (min-width: 300px) and (max-width: 600px) {
+    .widget {
+        margin-top: 0px;
+    }
+}

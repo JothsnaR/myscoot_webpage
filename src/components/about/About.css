@@ -1,0 +1,108 @@
+.aboutContainer {
+    display: block;
+    margin-top: 59px;
+}
+
+.aboutContainer .imageContainer {
+    display: inline-block;
+    float: left;
+    width: 50%;
+    margin-right: -17%;
+}
+
+.profileImg {
+    width: 400px;
+    height: 400px;
+    box-shadow: -15px 10px #ED4853;
+    padding-right: 10px;
+}
+
+.aboutContainer .aboutData {
+    display: inline-block;
+    width: 50%;
+    text-align: left;
+    font-family: 'Poppins';
+}
+
+.aboutData .aboutHeading {
+    font-size: 50px;
+    border-bottom: 1px solid #ED4853;
+    color: #ED4853;
+    font-family: 'Poppins';
+}
+
+.desc .readMore {
+    color: #ED4853;
+}
+
+.about {
+    font-weight: 100;
+    padding-right: 10px;
+}
+
+.name {
+    font-weight: 600;
+}
+
+@media (min-width: 300px) and (max-width: 600px) {
+    .aboutContainer {
+        margin-top: 10%;
+    }
+    
+    .aboutContainer .imageContainer {
+        display: block;
+        float: unset;
+        text-align: center;
+        width: 100%;
+        margin: 0 auto;
+    }
+    
+    .profileImg {
+        width: 200px;
+        height: 200px;
+        padding-right: 0px;
+    }
+
+    .aboutData {
+        margin: 20px;
+    }
+
+    h4 {
+        text-align: center;
+    }
+    
+    .aboutContainer .aboutData {
+        width: 86%;
+    }
+    
+    .aboutData .aboutHeading {
+        font-size: 30px;
+    }
+
+    .socialIcons {
+        text-align: center;
+        padding: 10px;
+    }
+
+    .socialIcons .socialContainer img {
+        width: 40px;
+        height: 40px;
+        margin-top: 0px;
+    }
+}
+
+@media (min-width: 600px) and (max-width: 1299px) {
+    .aboutContainer .imageContainer {
+        margin-right: -2%;
+    }
+
+    .profileImg {
+        width: 250px;
+        height: 250px;
+        padding-right: 0px;
+    }
+
+    .aboutData .aboutHeading {
+        font-size: 35px;
+    }
+}

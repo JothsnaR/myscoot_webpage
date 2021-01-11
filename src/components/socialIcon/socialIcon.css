@@ -1,0 +1,8 @@
+.socialContainer img{
+    display: inline-block;
+    width: 52px;
+    height: 52px;
+    margin-top: 40px;
+    box-shadow: none;
+    padding-right: 10px;
+}

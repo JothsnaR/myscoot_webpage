@@ -1,0 +1,85 @@
+.slotBookContainer {
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    position: relative;
+    background: white;
+    width: 31%;
+    text-align: left;
+    padding: 10px;
+    font-family: 'Poppins';
+}
+
+.slotTitle1 {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 36px;
+}
+
+.subTitle {
+    font-size: 10px;
+    line-height: 13px;
+}
+
+.rating {
+    font-size: 13px;
+    color: #ED4853;
+    line-height: 25px;
+}
+
+.period {
+    float: right;
+    background-color: #FFF0F0;
+    border-radius: 3px;
+    padding: 5px;
+}
+
+
+.bookSlot .buttonContainer button{
+    height: 32px;
+    font-size: 13px;
+    background-color: #ED4853;
+    color: white;
+    outline: none;
+    border: none;
+}
+
+.bookSlot {
+    display: inline-block;
+}
+
+.amt {
+    display: inline-block;
+    float: right;
+    color: #ED4853;
+    font-size: 20px;
+}
+
+.arrow1 {
+    padding-left: 3px;
+}
+
+@media (min-width: 300px) and (max-width: 599px) {
+    .slotTitle1 {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .subTitle, .rating {
+        font-size: 8px;
+        line-height: 20px;
+    }
+    .amt {
+        font-size: 15px;
+    }
+
+    .rating .star {
+        width: 10px;
+        height: 10px;
+    }
+
+    .period {
+        font-size: 10px;
+    }
+    .bookSlot .buttonContainer button{
+        height: 24px;
+    }
+}

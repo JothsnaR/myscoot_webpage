@@ -1,0 +1,14 @@
+.button {
+    font-size: 31px;
+    font-weight: 600;
+    height: 55px;
+    padding: 0 20px;
+    font-family: 'Poppins';
+}
+
+@media (min-width: 300px) and (max-width: 600px) {
+    .button {
+        height: 26px;
+        font-size: 12px;
+    }
+}

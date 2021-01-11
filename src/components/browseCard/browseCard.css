@@ -1,0 +1,59 @@
+.cardOuterContainer{
+    position: relative;
+    margin-bottom: 40px;
+}
+
+.cardContainer {
+    position: relative;
+    text-align: left;
+}
+
+.cardImgContent {
+    position: absolute;
+    top: 0px;
+    width: 50vh;
+}
+
+.loveIcon, .shareIcon {
+    background-color: #C4C4C4;
+    border-radius: 20px;
+    padding: 3px;
+    margin: 2px;
+}
+
+.leftContent {
+    background-color: #D35D6E;
+    color: #ffff;
+    padding: 4px;
+    border-radius: 25px;
+    display: inline-block;
+    margin: 7px;
+}
+
+.rightContent {
+    display: inline-block;
+    float: right;
+    margin: 7px -6px;
+}
+
+.contentCard .slotBookContainer{
+    margin: -26px 15px;
+    width: 367px
+}
+
+@media (min-width: 300px) and (max-width: 599px) {
+    .cardImgContent {
+        width: 40vh;
+    }
+    .cardImgContainer img {
+        width: 296px;
+    }
+    .contentCard .slotBookContainer{
+        margin: -26px 10px;
+        width: 256px;
+    }
+
+    .leftContent {
+        font-size: 9px;
+    }
+}

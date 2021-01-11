@@ -1,0 +1,17 @@
+.metaData {
+    font-size: 24px;
+    width: 75%;
+    font-family: 'Poppins';
+    text-align: center;
+}
+
+@media (min-width: 300px) and (max-width: 599px) {
+    .metaData {
+        font-size: 16px;
+        width: auto;
+    }
+
+    .portfolioImgContainer img {
+        height: 175px;
+    }
+}

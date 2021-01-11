@@ -1,0 +1,55 @@
+.headerContainer {
+    background-color: #ED4853;
+    width: 100%;
+    height: 86px;
+}
+
+.headerContainer {
+    position: relative;
+}
+
+.headerContainer .leftContainer {
+    position: absolute;
+    left: 25px;
+    top: 24px;
+    font-family: 'Mogra';
+    font-size: 35px;
+    line-height: 42px;
+    color: #FFFFFF;
+}
+
+.headerContainer .rightContainer {
+    position: absolute;
+    right: 25px;
+    top: 23px;
+    font-family: 'Poppins';
+    font-size: 25px;
+    line-height: 37px;
+    color: #FFFFFF;
+}
+
+.footerLeftContainer {
+    font-family: 'Poppins' !important;
+}
+
+@media (min-width: 300px) and (max-width: 600px) {
+    .headerContainer {
+        height: 50px;
+    }
+    .headerContainer .leftContainer {
+        font-size: 12px;
+        left: 0px;
+        top: 5px;
+        padding-left: 12px;
+    }
+    .headerContainer .rightContainer {
+        font-size: 12px;
+        right: 12px;
+        top: 5px;
+    }
+    .footerLeftContainer, .footerRightContainer {
+        position: relative !important;
+        line-height: 20px !important;
+        text-align: center;
+    }  
+}

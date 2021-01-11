@@ -1,0 +1,61 @@
+.widgetBlock {
+    background-color: #ED4853;
+    font-family: 'Poppins';
+    line-height: 38px;
+    display: inline-block;
+    margin: 15px 11%;
+    text-align: center;
+}
+
+.widgetBlock .widgetImg {
+    width: 35px;
+    height: 35px;
+}
+
+.count {
+    font-size: 45px;
+    color: #ffff;
+}
+
+.title {
+    font-size: 30px;
+    color: #ffff;
+}
+
+@media (min-width: 300px) and (max-width: 600px) {
+    .widgetBlock {
+        line-height: 17px;
+        margin: 15px 8%;
+    }
+    .widgetBlock .widgetImg {
+        width: 15px;
+        height: 15px;
+    }
+    
+    .count {
+        font-size: 15px;
+    }
+    
+    .title {
+        font-size: 13px;
+    }
+}
+
+@media (min-width: 600px) and (max-width: 1299px) {
+    .widgetBlock {
+        line-height: 20px;
+        margin: 15px 8%;
+    }
+    .widgetBlock .widgetImg {
+        width: 25px;
+        height: 25px;
+    }
+    
+    .count {
+        font-size: 20px;
+    }
+    
+    .title {
+        font-size: 17px;
+    }
+}

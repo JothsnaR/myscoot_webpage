@@ -1,0 +1,98 @@
+.mainPageContainer {
+    position: relative;
+}
+
+.pageContainer {
+    background: 
+      linear-gradient(
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
+      ),
+      url(pretty-woman.svg) no-repeat center center fixed;
+    background-size: cover;
+    background-attachment: inherit;
+    height: 100vh;
+  }
+
+  .mainPageContainer .containerData {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 85%;
+}
+
+.mainPageContainer .heading1 {
+    font-size: 86px;
+    color: #ffff;
+    text-transform: uppercase;
+    font-weight: 400px;
+    margin-bottom: 31px;
+    font-family: 'Mogra';
+}
+
+.mainPageContainer .heading2 {
+    font-size: 40px;
+    color: #ffff;
+    text-transform: capitalize;
+    font-weight: 400px;
+    font-family: 'Poppins';
+}
+
+.bookButton {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.bookButton .button {
+    background-color: #ED4853;
+    outline: none;
+    border: none;
+    color: #ffff;
+}
+
+.getButton {
+    display: inline-block;
+}
+
+.getButton .button {
+    background-color: transparent;
+    outline: none;
+    border: 1px solid #ffff;
+    color: #ffff;
+}
+
+.buttonBlock {
+    margin-top: 60px;
+}
+
+@media (min-width: 300px) and (max-width: 599px) {
+    .mainPageContainer {
+        height: 50vh;
+    }
+    .pageContainer {
+        height: 50vh;
+    }
+    .mainPageContainer .heading1 {
+        font-size: 25px;
+        line-height: 24px;
+        margin-bottom: 15px;
+    }
+    .mainPageContainer .heading2 {
+        font-size: 12px;
+        line-height: 24px;
+        font-weight: 700;
+    }
+    .buttonBlock {
+        margin-top: 30px;
+    }
+}
+
+@media (min-width: 600px) and (max-width: 1299px) {
+    .mainPageContainer .heading1 {
+        font-size: 35px;
+    }
+    .mainPageContainer .heading2 {
+        font-size: 20px;
+    }
+}
